@@ -67,7 +67,10 @@ a:hover {
   }
 }
 @media screen and (min-width: 360px) and (max-width: 640px){
-
+.galeria{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 }
 @media screen and (min-width:641px) and (max-width:780px){
   .galeria{
