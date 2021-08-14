@@ -79,10 +79,9 @@ i {
   margin: 0.3rem;
   color: $borderColor;
 }
-
 .icon__nav{
-  visibility: hidden;
   display: none;
+  visibility: hidden;
 }
 .header__navMenu {
   margin-right: 1rem;
@@ -194,8 +193,8 @@ i {
   }
   .header__navMenu {
     visibility: hidden;
-
   }
+
   .header__navMenu--list .header__navMenu--link {
     visibility: hidden;
   }

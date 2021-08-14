@@ -87,6 +87,11 @@ i {
   border-radius: 30px;
 }
 
+.icon__nav {
+  display: none;
+  visibility: hidden;
+}
+
 .form__contacto {
   width: 32rem;
   margin-left: auto;
@@ -461,8 +466,8 @@ i {
 }
 
 .icon__nav {
-  visibility: hidden;
   display: none;
+  visibility: hidden;
 }
 
 .header__navMenu {
