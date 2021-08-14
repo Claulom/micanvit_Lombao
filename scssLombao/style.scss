@@ -67,6 +67,7 @@ body {
     transform: rotate(360deg);
   }
 }
+
 li {
   list-style-type: none;
 }
@@ -78,10 +79,6 @@ i {
   font-size: 3rem;
   margin: 0.3rem;
   color: $borderColor;
-}
-.icon__nav{
-  display: none;
-  visibility: hidden;
 }
 .header__navMenu {
   margin-right: 1rem;
@@ -116,7 +113,11 @@ i {
     }
   }
 }
-
+.icon__nav{
+  display: none;
+  font-size: 0.2rem;
+  visibility: hidden;
+}
 .carousel-item {
   height: 21rem;
   width: 90%;
@@ -177,7 +178,7 @@ i {
 }
 
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 360px) and (max-width: 480px) {
   .header {
     display: flex;
     flex-direction: column;
@@ -196,7 +197,8 @@ i {
   }
 
   .header__navMenu--list .header__navMenu--link {
-    visibility: hidden;
+    visibility: hidden; 
+    margin-right: -1rem;
   }
   .footer {
     margin-top: 10%; 

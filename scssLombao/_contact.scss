@@ -64,6 +64,7 @@ i {
 }
 .icon__nav{
   display: none;
+  font-size: 0.2rem;
   visibility: hidden;
 }
 
@@ -172,13 +173,21 @@ footer {
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px){
- 
+  .icon__nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    visibility: visible;
+    font-size: 2.5rem;
+    padding-left: 10%;
+  }
   .form__contacto{
     margin-top: 5%;
-    height: 30rem;
+    height: 35rem;
   }
   .form__contacto, input, select, textarea{
-   max-width: 20rem;
+   max-width: 22.5rem;
  }
  label{
    text-align: center;
