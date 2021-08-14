@@ -171,8 +171,26 @@ footer {
     font-size: 0.75rem;
   }
 }
-
-@media screen and (min-width: 320px) and (max-width: 480px){
+@media screen and (min-width:320px) and (max-width:359px){
+  .header__navMenu--list .header__navMenu--link {
+    visibility: hidden; 
+    margin-right: -2rem;
+    padding-left: 1rem;
+  }
+  .form__contacto, input, select, textarea{
+    max-width: 19rem;
+  }
+  .icon__nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    visibility: visible;
+    font-size: 2rem;
+   
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 640px){
   .icon__nav{
     display: flex;
     flex-direction: row;

@@ -51,7 +51,7 @@ a:hover {
   font-size: 1.5rem;
   margin: auto;
 }
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 359px) {
   .imagenes {
     max-width: 20rem;
     /* padding-left: 10%; */
@@ -64,5 +64,20 @@ a:hover {
   }
   .carrusel {
     display: none;
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 640px){
+
+}
+@media screen and (min-width:641px) and (max-width:780px){
+  .galeria{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  #carouselExampleIndicators{
+    max-height: 12.5rem;
+  }
+  .carousel-inner{
+    max-height: 12.5rem;
   }
 }
