@@ -1,3 +1,4 @@
+/*  en la galeria de imagenes se agrega animacion a las cards */
 .imagenes {
   display: grid;
   padding-left: 2%;
@@ -51,10 +52,10 @@ a:hover {
   font-size: 1.5rem;
   margin: auto;
 }
+/* Aqui comienza el responsive para dispositivos moviles. Se ajusta la galeria de imagenes */
 @media screen and (min-width: 320px) and (max-width: 359px) {
   .imagenes {
     max-width: 20rem;
-    /* padding-left: 10%; */
     margin: auto;
   }
   .galeria {
@@ -72,6 +73,8 @@ a:hover {
   grid-template-columns: 1fr 1fr;
 }
 }
+
+/* Aqui comienza el responsive para tablets */
 @media screen and (min-width:641px) and (max-width:780px){
   .galeria{
     display: grid;

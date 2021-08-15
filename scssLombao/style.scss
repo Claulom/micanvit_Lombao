@@ -113,6 +113,7 @@ i {
     }
   }
 }
+/* se ocultan iconos en desktop */
 .icon__nav{
   display: none;
   font-size: 0.2rem;
@@ -176,7 +177,7 @@ i {
 .footer__info--text {
   margin: 0.8rem;
 }
-
+/* aqui comienza el responsive de dispositivos pequeños, el menu se convierte en iconos. */
 @media screen and (min-width: 320px) and (max-width: 359px){
   .header {
     display: flex;
@@ -279,8 +280,7 @@ div>.card{
 }
 }
 
-
-
+/* Se cambian colores predeterminados de bootstrap en los botones, y la fuente del sitio. */
 @import "../bootstrap/dist/css/bootstrap.css";
 
 $primary: #d46a6a;
